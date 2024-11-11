@@ -217,9 +217,6 @@ nav a {
         margin-top: 1.5rem;
     }
 
-    .home-video {
-        max-width: 100%;
-    }
 }
 
 @font-face {
@@ -574,7 +571,7 @@ nav a.active {
 
 .home-video {
     aspect-ratio: 16/9;
-    max-height: 25rem;
+    width:40rem;
 }
 
 
@@ -818,4 +815,9 @@ canvas {
     .content-card{
         padding: 3rem 1.5rem 5rem 1.5rem;
     }
+    .home-video {
+        aspect-ratio: 16/9;
+        width:30rem;
+    }
+    
 }
